@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Inspec Caldeiras" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="author" content="Kálita Duarte" />
+  <meta name="format-detection" content="telephone=no">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+  <title>Inspec | Caldeiras</title>
+</head>
+
+<body class="page-wrapper">
+  <div id="header-placeholder"></div>
+
+  <div class="slider-container">
+    <div class="slider" aria-label="Carousel de banners promocionais">
+      <div class="slider-nav prev-arrow" role="button" aria-label="Slide anterior">
+        <i class="fas fa-chevron-left"></i>
+      </div>
+      <div class="slider-nav next-arrow" role="button" aria-label="Próximo slide">
+        <i class="fas fa-chevron-right"></i>
+      </div>
+      
+      <div class="slides">
+        <input type="radio" name="radio-btn" id="radio1" checked aria-label="Slide 1" />
+        <input type="radio" name="radio-btn" id="radio2" aria-label="Slide 2" />
+        <input type="radio" name="radio-btn" id="radio3" aria-label="Slide 3" />
+
+        <div class="slide first">
+          <img src="Imagens/banner_principal.png" alt="Banner principal da Inspec Caldeiras" loading="eager"
+            width="100%" height="100%" />
+        </div>
+        <div class="slide">
+          <img src="Imagens/banner_solicite_orcamento.png" alt="Banner informativo sobre orçamentos" loading="eager"
+            width="100%" height="100%" />
+        </div>
+        <div class="slide">
+          <img src="Imagens/banner_inspec.png" alt="Banner com informações sobre a Inspec" loading="eager" width="100%"
+            height="100%" />
+        </div>
+
+        <div class="navigation-auto" aria-hidden="true">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+        </div>
+      </div>
+
+      <div class="manual-navigation" role="tablist">
+        <label for="radio1" class="manual-btn" tabindex="0" role="tab" aria-selected="true" aria-controls="slide1"
+          title="Ir para o slide 1"></label>
+        <label for="radio2" class="manual-btn" tabindex="0" role="tab" aria-selected="false" aria-controls="slide2"
+          title="Ir para o slide 2"></label>
+        <label for="radio3" class="manual-btn" tabindex="0" role="tab" aria-selected="false" aria-controls="slide3"
+          title="Ir para o slide 3"></label>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="card">
+      <i class="fa-solid fa-trophy"></i>
+      <h3>EXCELÊNCIA EM SERVIÇOS</h3>
+      <p>
+        A INSPEC CALDEIRAS atua no mercado de inspeção e manutenção
+        industrial. Ao longo dos anos, consolidou-se por sua qualidade e
+        confiança conquistadas, tornando-se referência na região. O
+        comprometimento e a qualidade técnica de seu corpo de Engenheiros
+        resulta em um trabalho de alto padrão, cumprindo todo o rigor exigido
+        pelas normativas e legislações vigentes. Atuamos em todo o território
+        nacional e temos carta de referência de grandes clientes que comprovam
+        a qualidade dos nossos serviços.
+      </p>
+    </div>
+    <div class="card">
+      <i class="fa-solid fa-check"></i>
+      <h3>SATISFAÇÃO GARANTIDA</h3>
+      <p>
+        A dedicação constante à melhoria contínua dos nossos processos mantém
+        a INSPEC CALDEIRAS sempre à frente, impulsionada pela plena satisfação
+        de nossos clientes e colaboradores. Acreditamos que a relação com
+        nossos clientes deve ser simples, transparente e duradoura. Por isso,
+        investimos não apenas na excelência do atendimento, mas também no
+        pós-venda, garantindo um suporte de qualidade e fortalecendo parcerias
+        de longo prazo. Nosso compromisso vai além da entrega de serviços;
+        buscamos construir conexões que agreguem valor e solidifiquem nossa
+        reputação ao longo dos anos.
+      </p>
+    </div>
+    <div class="card">
+      <i class="fa-solid fa-book-open"></i>
+      <h3>DOCUMENTAÇÃO E CERTIFICAÇÕES</h3>
+      <p>
+        Nossa equipe conta com toda a documentação necessária para atuar em
+        sua empresa, incluindo ASO, PPRA, PCMSO, Ficha de EPI's, NR35, NR33 e
+        certificados de formação, garantindo total conformidade com as
+        exigências do CREA e do Ministério do Trabalho. Além disso, utilizamos
+        os melhores EPI's e equipamentos disponíveis no mercado, sempre
+        priorizando a segurança e o bem-estar dos nossos colaboradores.
+      </p>
+    </div>
+  </div>
+  <div class="container_prevencao">
+    <div class="card_prevencao">
+      <i class="fa-solid fa-triangle-exclamation" id="acidentes"></i>
+      <h3>PREVENÇÃO DE ACIDENTES</h3>
+      <p>
+        Mantendo as inspeções dos vasos de pressão, caldeiras, tubulações e tanques de armazenamento dentro do prazo,
+        você reduz os riscos de acidentes, além de proteger o seu maior patrimônio, o seu colaborador, evitando também
+        grandes prejuízos financeiros.
+      </p>
+    </div>
+    <div class="card_prevencao">
+      <i class="fa-solid fa-ban" id="nao_conformidades"></i>
+      <h3>PREVENÇÃO DE NÃO CONFORMIDADES</h3>
+      <p>
+        Ao realizar as inspeções com a Inspec Caldeiras, você garante a aprovação em fiscalizações do corpo de
+        bombeiros, ministério do trabalho, seguradoras e auditorias externas e internas com isso a sua empresa atenderá
+        a todos os requisitos dos órgãos responsáveis.
+      </p>
+    </div>
+    <div class="card_prevencao">
+      <i class="fa-solid fa-sack-dollar" id="multas"></i>
+      <h3>PREVENÇÃO DE MULTAS</h3>
+      <p>
+        O relatório da Inspec Caldeiras apresenta todas as recomendações para atender na íntegra a todos os requisitos
+        da NR13, evitando com isso multas aplicadas pelas NR28 e o embargo ou interdição de sua empresa.
+      </p>
+    </div>
+  </div>
+
+  <div class="carousel-clientes">
+    <h1 class="page-title">Nossos Principais Clientes</h1>
+    <div class="carouselCliente">
+      <div class="carousel-imagem">
+        <img src="Imagens/imagens_logos_clientes/algar.svg" alt="algar">
+      </div>
+      <div class="carousel-imagem">
+        <img src="Imagens/imagens_logos_clientes/bunge.svg" alt="bunge">
+      </div>
+      <div class="carousel-imagem">
+        <img src="Imagens/imagens_logos_clientes/cargil.svg" alt="cargil">
+      </div>
+      <div class="carousel-imagem">
+        <img src="Imagens/imagens_logos_clientes/monsanto.svg" alt="monsanto">
+      </div>
+      <div class="carousel-imagem">
+        <img src="Imagens/imagens_logos_clientes/algar.svg" alt="algar">
+      </div>
+      <div class="carousel-imagem">
+        <img src="Imagens/imagens_logos_clientes/bunge.svg" alt="bunge">
+      </div>
+      <div class="carousel-imagem">
+        <img src="Imagens/imagens_logos_clientes/algar.svg" alt="algar">
+      </div>
+      <div class="carousel-imagem">
+        <img src="Imagens/imagens_logos_clientes/bunge.svg" alt="bunge">
+      </div>
+      <div class="carousel-imagem">
+        <img src="Imagens/imagens_logos_clientes/cargil.svg" alt="cargil">
+      </div>
+      <div class="carousel-imagem">
+        <img src="Imagens/imagens_logos_clientes/monsanto.svg" alt="monsanto">
+      </div>
+      <div class="carousel-imagem">
+        <img src="Imagens/imagens_logos_clientes/algar.svg" alt="algar">
+      </div>
+      <div class="carousel-imagem">
+        <img src="Imagens/imagens_logos_clientes/bunge.svg" alt="bunge">
+      </div>
+    </div>
+  </div>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
