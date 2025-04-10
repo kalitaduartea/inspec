@@ -1332,15 +1332,15 @@ svg,
     }
 
     .slider {
-        height: 300px;
+        height: auto;
     }
 
     .slides {
-        height: 300px;
+        height: auto;
     }
 
     .slide img {
-        height: 300px;
+        height: auto;
     }
 
     .navigation-auto {
@@ -1700,19 +1700,19 @@ svg,
 
     /* Ajustes para iPhones e celulares muito pequenos */
     .slider {
-        height: 180px;
+        height: auto;
     }
 
     .slides {
-        height: 180px;
+        height: auto;
     }
 
     .slide {
-        height: 100%;
+        height: auto;
     }
 
     .slide img {
-        height: 100%;
+        height: auto;
     }
 
     .navigation-auto {
@@ -1770,15 +1770,15 @@ only screen and (min-resolution: 192dpi) {
 
     .slider,
     .slides {
-        height: 180px;
+        height: auto;
     }
 
     .slide {
-        height: 100%;
+        height: auto;
     }
 
     .slide img {
-        height: 100%;
+        height: auto;
         object-fit: cover;
     }
 
